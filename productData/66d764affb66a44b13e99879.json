@@ -1,0 +1,54 @@
+{
+  "brand": "11",
+  "model": "11",
+  "description": "11",
+  "price": 11,
+  "image": "http://localhost:3000/admin.html",
+  "categories": [
+    "Comfort"
+  ],
+  "sizes": [
+    {
+      "size": "1",
+      "amount": 1,
+      "_id": "66d764affb66a44b13e9987a"
+    },
+    {
+      "size": "1",
+      "amount": 1,
+      "_id": "66d764affb66a44b13e9987b"
+    },
+    {
+      "size": "40",
+      "amount": 0,
+      "_id": "66d764affb66a44b13e9987c"
+    },
+    {
+      "size": "41",
+      "amount": 0,
+      "_id": "66d764affb66a44b13e9987d"
+    },
+    {
+      "size": "42",
+      "amount": 0,
+      "_id": "66d764affb66a44b13e9987e"
+    },
+    {
+      "size": "43",
+      "amount": 0,
+      "_id": "66d764affb66a44b13e9987f"
+    },
+    {
+      "size": "44",
+      "amount": 0,
+      "_id": "66d764affb66a44b13e99880"
+    },
+    {
+      "size": "45",
+      "amount": 0,
+      "_id": "66d764affb66a44b13e99881"
+    }
+  ],
+  "_id": "66d764affb66a44b13e99879",
+  "__v": 0
+}

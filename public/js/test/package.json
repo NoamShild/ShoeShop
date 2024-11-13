@@ -1,0 +1,24 @@
+{
+  "name": "shoe-shop-tests",
+  "version": "1.0.0",
+  "description": "Test environment for the Shoe Shop project",
+  "type": "module",
+  "main": "test.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "puppeteer": "^23.2.1"
+  },
+  "devDependencies": {
+    "vitest": "^0.34.0"
+  },
+  "keywords": [
+    "test",
+    "node-fetch",
+    "shoe-shop"
+  ],
+  "author": "Your Name",
+  "license": "ISC"
+}

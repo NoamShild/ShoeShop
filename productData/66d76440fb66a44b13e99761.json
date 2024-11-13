@@ -1,0 +1,45 @@
+{
+  "_id": "66d76440fb66a44b13e99761",
+  "brand": "Nike",
+  "model": "Air Force 1",
+  "description": "A timeless classic, the Nike Air Force 1 brings a fresh twist to the legendary silhouette.",
+  "price": 89.99,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/9/x902820005-11656407164.jpg",
+  "categories": [
+    "Casual",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 0,
+      "_id": "66d76440fb66a44b13e99762"
+    },
+    {
+      "size": "37",
+      "amount": 15,
+      "_id": "66d76440fb66a44b13e99763"
+    },
+    {
+      "size": "38",
+      "amount": 20,
+      "_id": "66d76440fb66a44b13e99764"
+    },
+    {
+      "size": "39",
+      "amount": 10,
+      "_id": "66d76440fb66a44b13e99765"
+    },
+    {
+      "size": "40",
+      "amount": 15,
+      "_id": "66d76440fb66a44b13e99766"
+    },
+    {
+      "size": "41",
+      "amount": 10,
+      "_id": "66d76440fb66a44b13e99767"
+    }
+  ],
+  "__v": 0
+}

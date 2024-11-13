@@ -1,0 +1,45 @@
+{
+  "brand": "Saucony",
+  "model": "Endorphin Speed",
+  "description": "The Saucony Endorphin Speed is built for speed and comfort, ideal for race day.",
+  "price": 160,
+  "image": "https://www.caremedics.co.il/wp-content/uploads/2022/07/s20647-16_2_2.jpg",
+  "categories": [
+    "Running",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 50,
+      "_id": "66d7697b788d26ee8742996e"
+    },
+    {
+      "size": "39",
+      "amount": 12,
+      "_id": "66d7697b788d26ee8742996f"
+    },
+    {
+      "size": "40",
+      "amount": 15,
+      "_id": "66d7697b788d26ee87429970"
+    },
+    {
+      "size": "41",
+      "amount": 20,
+      "_id": "66d7697b788d26ee87429971"
+    },
+    {
+      "size": "42",
+      "amount": 15,
+      "_id": "66d7697b788d26ee87429972"
+    },
+    {
+      "size": "43",
+      "amount": 10,
+      "_id": "66d7697b788d26ee87429973"
+    }
+  ],
+  "_id": "66d7697b788d26ee8742996d",
+  "__v": 0
+}

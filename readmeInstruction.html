@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Shop: E-Commerce Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #444;
+        }
+        pre {
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Shoe Shop: E-Commerce Platform</h1>
+
+    <h1>main page  <code>http://localhost:3000/html/main.html</code></h1>
+
+    <h2>Project Overview</h2>
+    <p>Shoe Shop is a full-featured e-commerce platform built using Node.js and Express.js, allowing users to browse, search, and purchase shoes. The platform provides user authentication, product reviews, personalized recommendations, and secure data handling using both MongoDB and a file system. This application includes various functionalities such as user registration, profile management, shopping cart, purchase history, and an admin panel for product and review management. It leverages MongoDB for dynamic data storage while also utilizing file system management for data backup and other storage needs.</p>
+
+
+    <h2>Features</h2>
+    <ul>
+        <li><strong>User Authentication:</strong> Sign up, sign in, and logout functionalities.</li>
+        <li><strong>Profile Management:</strong> Users can update their username, email, password, address, and phone number.</li>
+        <li><strong>Product Browsing:</strong> Users can browse, search, and sort shoes by various criteria.</li>
+        <li><strong>Shopping Cart:</strong> Users can add shoes to their cart and complete purchases.</li>
+        <li><strong>Purchase History:</strong> Users can view their past purchases and leave reviews for products they've bought.</li>
+        <li><strong>Product Reviews:</strong> Users can rate and review products they have purchased. The average rating is displayed on each product.</li>
+        <li><strong>Public Reviews:</strong> Users can see all the reviews from other users on the site.</li>
+        <li><strong>Admin Panel:</strong> Admins can manage products, including adding, updating, and removing them, and can also remove user reviews.</li>
+    </ul>
+
+    <h2>Project Structure</h2>
+    <pre>
+    shoeshop/
+    ├── models/                 
+    │   ├── Product.js           
+    │   ├── Review.js          
+    │   ├── User.js             
+    │   └── products.json        <!-- Includes your initial product data -->
+    │
+    ├── node_modules/           
+    │   └── [dependencies]      
+    │
+    ├── userData/                 
+    │   └── [product files]     
+    │
+    ├── public/                 
+    │   ├── css/
+    │   │   ├── activityLog.css
+    │   │   ├── admin.css
+    │   │   ├── cart.css
+    │   │   ├── login.css
+    │   │   ├── main.css
+    │   │   ├── profile.css
+    │   │   ├── publicReview.css
+    │   │   ├── purchaseHistory.css
+    │   │   ├── readme.css
+    │   │   ├── style.css
+    │   │   ├── submitReview.css
+    │   │   ├── thankYou.css
+    │   │   └── thankYouReview.css
+    │   ├── html/
+    │   │   ├── activityLog.html
+    │   │   ├── admin.html
+    │   │   ├── cart.html
+    │   │   ├── lm.html
+    │   │   ├── login.html
+    │   │   ├── main.html
+    │   │   ├── profile.html
+    │   │   ├── publicReviews.html
+    │   │   ├── purchaseHistory.html
+    │   │   ├── readme.html
+    │   │   ├── security.html
+    │   │   ├── submitReview.html
+    │   │   ├── thankYou.html
+    │   │   └── thankYouReview.html
+    │   ├── js/
+    │   │   ├── activityLog.js
+    │   │   ├── admin.js
+    │   │   ├── cart.js
+    │   │   ├── login.js
+    │   │   ├── main.js
+    │   │   ├── profile.js
+    │   │   ├── publicReviews.js
+    │   │   ├── purchaseHistory.js
+    │   │   ├── register.js
+    │   │   ├── security.js
+    │   │   ├── submitReview.js
+    │   │   ├── thankYouReview.js
+    │   │   └── test/
+    │   │       └── test.js             <!-- Your test file located in the public/js/test directory -->
+    │
+    ├── routes/                 
+    │   ├── adminRouter.js      
+    │   ├── adminTrackRouter.js 
+    │   ├── authRouter.js       
+    │   ├── cartRouter.js       
+    │   ├── mainPageRouter.js   
+    │   ├── profileRouter.js    
+    │   ├── purchaseHistoryRouter.js  
+    │   ├── registerRouter.js   
+    │   ├── submitReviewRouter.js 
+    │   ├── publicReviewsRouter.js 
+    │   ├── thankYouRouter.js   
+    │   └── ThankYouReviewRouter.js    <!-- Added ThankYouReviewRouter.js here -->
+    │
+    ├── utils/                  
+    │   └── persist.js          
+    │
+    ├── userData/
+    │   └── [user data files]   <!-- Contains user data in JSON format -->
+    │
+    ├── .env                    
+    ├── server.js                  
+    ├── package.json            
+    └── READMEinstructions.html               
+    </pre>
+    
+    <h2>Installation & Setup</h2>
+
+    <h3>Prerequisites</h3>
+    <ul>
+        <li><strong>Node.js:</strong> Ensure Node.js is installed on your machine.</li>
+        <li><strong>MongoDB:</strong> Install MongoDB on your machine.</li>
+    </ul>
+    
+    <h3>Step 1: Prepare the Project Directory</h3>
+    <ol>
+        <li>Download the provided zip file containing the project to your computer.</li>
+        <li>Locate the downloaded zip file and right-click on it to extract its contents. This will create a folder with all the project files.</li>
+        <li>Open your terminal application (on Windows, you can use Command Prompt or PowerShell; on macOS and Linux, you can use the Terminal app).</li>
+        <li>In the terminal, use the `cd` (change directory) command to navigate to the extracted project folder. For example:
+            <pre><code>cd /path/to/extracted/project/folder</code></pre>
+            Replace `/path/to/extracted/project/folder` with the actual path where the project folder is located on your machine.
+        </li>
+    </ol>
+    
+    <h3>Step 2: Install Dependencies</h3>
+    <p>Once you are inside the project folder in the terminal, run the following command to install all the necessary dependencies:</p>
+    <pre><code>npm install
+    </code></pre>
+        
+    <h3>Step 3: Start the Application</h3>
+    <p>To start the application, run the following command in the terminal:</p>
+    <pre><code>node server.js
+    </code></pre>
+    <p>The app should now be running on <code>http://localhost:3000/html/main.html</code>.</p>
+    
+    <h2>Running Tests</h2>
+    
+    <h3>How to Run Tests</h3>
+    <p>To run tests for your application, follow these steps:</p>
+    <ol>
+        <li>Ensure your MongoDB server is running. If your server is not running in the background, you'll need to start it first.</li>
+        <li>If your application is already running in one terminal, open a new terminal window or tab.</li>
+        <li>In this new terminal, use the `cd` command to navigate to the `public/js/test` directory where the test file is located:</li>
+        <pre><code>cd /path/to/your/project/public/js/test</code></pre>
+        <li>Install the necessary dependencies for running the tests:</li>
+        <pre><code>npm install
+    </code></pre>
+        <li>Finally, run the test script using the following command:</li>
+        <pre><code>node test.js
+    </code></pre>
+    </ol>
+    <p>This script will execute tests for your routes and functionalities to ensure everything is working correctly. The tests include the meaningful requests to verify that your API routes are functioning as expected.</p>
+    <p>If the tests pass, you will see output in the terminal indicating success. If any test fails, the output will show which test failed and the type of error.</p>
+    </body>
+    </html>

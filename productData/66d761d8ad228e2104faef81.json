@@ -1,0 +1,45 @@
+{
+  "brand": "Under Armour",
+  "model": "HOVR Phantom 2",
+  "description": "The Under Armour HOVR Phantom 2 offers a snug fit and energy return with every step.",
+  "price": 140,
+  "image": "https://cms-cdn.thesolesupplier.co.uk/2021/10/under-armour-hovr-phantom-2-abc-white_w1024_h1024_pad_.jpg.webp",
+  "categories": [
+    "Running",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 12,
+      "_id": "66d761d8ad228e2104faef82"
+    },
+    {
+      "size": "37",
+      "amount": 10,
+      "_id": "66d761d8ad228e2104faef83"
+    },
+    {
+      "size": "38",
+      "amount": 15,
+      "_id": "66d761d8ad228e2104faef84"
+    },
+    {
+      "size": "39",
+      "amount": 20,
+      "_id": "66d761d8ad228e2104faef85"
+    },
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d761d8ad228e2104faef86"
+    },
+    {
+      "size": "41",
+      "amount": 8,
+      "_id": "66d761d8ad228e2104faef87"
+    }
+  ],
+  "_id": "66d761d8ad228e2104faef81",
+  "__v": 0
+}

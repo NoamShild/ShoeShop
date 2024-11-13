@@ -1,0 +1,45 @@
+{
+  "brand": "Hoka One One",
+  "model": "Clifton 7",
+  "description": "The Hoka One One Clifton 7 is a lightweight shoe that offers superior cushioning.",
+  "price": 130,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/w/0/w091150021-11692661159_1.jpg",
+  "categories": [
+    "Running",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 50,
+      "_id": "66d7697b788d26ee87429961"
+    },
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d7697b788d26ee87429962"
+    },
+    {
+      "size": "41",
+      "amount": 15,
+      "_id": "66d7697b788d26ee87429963"
+    },
+    {
+      "size": "42",
+      "amount": 20,
+      "_id": "66d7697b788d26ee87429964"
+    },
+    {
+      "size": "43",
+      "amount": 15,
+      "_id": "66d7697b788d26ee87429965"
+    },
+    {
+      "size": "44",
+      "amount": 10,
+      "_id": "66d7697b788d26ee87429966"
+    }
+  ],
+  "_id": "66d7697b788d26ee87429960",
+  "__v": 0
+}

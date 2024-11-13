@@ -1,0 +1,45 @@
+{
+  "brand": "Nike",
+  "model": "Blazer Mid '77",
+  "description": "The Nike Blazer Mid '77 brings vintage basketball style to the modern era.",
+  "price": 110,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/x/6/x623450005-11678345065.jpg",
+  "categories": [
+    "Casual",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 15,
+      "_id": "66d761d8ad228e2104faef64"
+    },
+    {
+      "size": "37",
+      "amount": 18,
+      "_id": "66d761d8ad228e2104faef65"
+    },
+    {
+      "size": "38",
+      "amount": 25,
+      "_id": "66d761d8ad228e2104faef66"
+    },
+    {
+      "size": "39",
+      "amount": 15,
+      "_id": "66d761d8ad228e2104faef67"
+    },
+    {
+      "size": "40",
+      "amount": 20,
+      "_id": "66d761d8ad228e2104faef68"
+    },
+    {
+      "size": "41",
+      "amount": 10,
+      "_id": "66d761d8ad228e2104faef69"
+    }
+  ],
+  "_id": "66d761d8ad228e2104faef63",
+  "__v": 0
+}

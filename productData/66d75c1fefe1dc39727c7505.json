@@ -1,0 +1,40 @@
+{
+  "brand": "Mizuno",
+  "model": "Wave Rider 24",
+  "description": "The Mizuno Wave Rider 24 offers a smooth ride with excellent cushioning.",
+  "price": 130,
+  "image": "https://365mashbir.co.il/cdn/shop/products/nl-sfvr-lnshim-wave-rider-26-440939.jpg?v=1704568911",
+  "categories": [
+    "Running",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d75c1fefe1dc39727c7506"
+    },
+    {
+      "size": "41",
+      "amount": 15,
+      "_id": "66d75c1fefe1dc39727c7507"
+    },
+    {
+      "size": "42",
+      "amount": 20,
+      "_id": "66d75c1fefe1dc39727c7508"
+    },
+    {
+      "size": "43",
+      "amount": 15,
+      "_id": "66d75c1fefe1dc39727c7509"
+    },
+    {
+      "size": "44",
+      "amount": 10,
+      "_id": "66d75c1fefe1dc39727c750a"
+    }
+  ],
+  "_id": "66d75c1fefe1dc39727c7505",
+  "__v": 0
+}

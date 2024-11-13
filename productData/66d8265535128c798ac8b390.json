@@ -1,0 +1,40 @@
+{
+  "brand": "Asics",
+  "model": "Gel-Kayano 27",
+  "description": "The Asics Gel-Kayano 27 provides stability and comfort, ideal for long runs.",
+  "price": 160,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/w/1/w169290001-11698842432.jpg",
+  "categories": [
+    "Running",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "41",
+      "amount": 0,
+      "_id": "66d8265535128c798ac8b391"
+    },
+    {
+      "size": "42",
+      "amount": 0,
+      "_id": "66d8265535128c798ac8b392"
+    },
+    {
+      "size": "43",
+      "amount": 0,
+      "_id": "66d8265535128c798ac8b393"
+    },
+    {
+      "size": "44",
+      "amount": 0,
+      "_id": "66d8265535128c798ac8b394"
+    },
+    {
+      "size": "45",
+      "amount": 0,
+      "_id": "66d8265535128c798ac8b395"
+    }
+  ],
+  "_id": "66d8265535128c798ac8b390",
+  "__v": 0
+}

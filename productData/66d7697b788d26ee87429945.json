@@ -1,0 +1,45 @@
+{
+  "brand": "Converse",
+  "model": "Chuck Taylor All Star",
+  "description": "The Converse Chuck Taylor All Star is an iconic shoe with a timeless design.",
+  "price": 55,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/w/1/w189410012-11713187521.jpg",
+  "categories": [
+    "Casual",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 0,
+      "_id": "66d7697b788d26ee87429946"
+    },
+    {
+      "size": "37",
+      "amount": 0,
+      "_id": "66d7697b788d26ee87429947"
+    },
+    {
+      "size": "38",
+      "amount": 0,
+      "_id": "66d7697b788d26ee87429948"
+    },
+    {
+      "size": "39",
+      "amount": 0,
+      "_id": "66d7697b788d26ee87429949"
+    },
+    {
+      "size": "40",
+      "amount": 0,
+      "_id": "66d7697b788d26ee8742994a"
+    },
+    {
+      "size": "41",
+      "amount": 0,
+      "_id": "66d7697b788d26ee8742994b"
+    }
+  ],
+  "_id": "66d7697b788d26ee87429945",
+  "__v": 0
+}

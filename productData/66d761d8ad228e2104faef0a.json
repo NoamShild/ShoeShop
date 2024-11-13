@@ -1,0 +1,45 @@
+{
+  "brand": "Fila",
+  "model": "Disruptor II",
+  "description": "The Fila Disruptor II is a bold shoe with a chunky sole and retro design.",
+  "price": 90,
+  "image": "https://img.fruugo.com/product/9/39/1543444399_max.jpg",
+  "categories": [
+    "Fashion",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 15,
+      "_id": "66d761d8ad228e2104faef0b"
+    },
+    {
+      "size": "37",
+      "amount": 20,
+      "_id": "66d761d8ad228e2104faef0c"
+    },
+    {
+      "size": "38",
+      "amount": 18,
+      "_id": "66d761d8ad228e2104faef0d"
+    },
+    {
+      "size": "39",
+      "amount": 25,
+      "_id": "66d761d8ad228e2104faef0e"
+    },
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d761d8ad228e2104faef0f"
+    },
+    {
+      "size": "41",
+      "amount": 8,
+      "_id": "66d761d8ad228e2104faef10"
+    }
+  ],
+  "_id": "66d761d8ad228e2104faef0a",
+  "__v": 0
+}

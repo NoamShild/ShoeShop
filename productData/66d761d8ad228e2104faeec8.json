@@ -1,0 +1,45 @@
+{
+  "brand": "Reebok",
+  "model": "Nano X1",
+  "description": "The Reebok Nano X1 is designed for performance with a versatile fit.",
+  "price": 130,
+  "image": "https://d3m9l0v76dty0.cloudfront.net/system/photos/12590981/large/6778f93db5218e213fb81a8def20b978.jpg",
+  "categories": [
+    "Sports",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "40",
+      "amount": 0,
+      "_id": "66d761d8ad228e2104faeec9"
+    },
+    {
+      "size": "41",
+      "amount": 0,
+      "_id": "66d761d8ad228e2104faeeca"
+    },
+    {
+      "size": "42",
+      "amount": 0,
+      "_id": "66d761d8ad228e2104faeecb"
+    },
+    {
+      "size": "43",
+      "amount": 0,
+      "_id": "66d761d8ad228e2104faeecc"
+    },
+    {
+      "size": "44",
+      "amount": 0,
+      "_id": "66d761d8ad228e2104faeecd"
+    },
+    {
+      "size": "45",
+      "amount": 0,
+      "_id": "66d761d8ad228e2104faeece"
+    }
+  ],
+  "_id": "66d761d8ad228e2104faeec8",
+  "__v": 0
+}

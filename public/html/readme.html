@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/main.css"> <!--  path to the main CSS file -->
+    <link rel="stylesheet" href="../css/readme.css"> <!--  path to the readme CSS file -->
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div id="header">
+        <div id="cartIcon" class="fas fa-shopping-cart">
+            <div id="cartCount">0</div>
+        </div>
+        <!-- Profile, Logout, Readme, and LLM links -->
+        <i class="fas fa-shoe-prints navbar-icon"></i>
+        <a href="/html/profile.html" id="profileButton" class="header-link">Profile</a>
+        <i class="fas fa-shoe-prints navbar-icon"></i>
+        <a href="/logout" id="logoutButton" class="header-link">Logout</a>
+        <i class="fas fa-shoe-prints navbar-icon"></i>
+        <a href="/html/llm.html" class="header-link">LLM</a>
+        <h1 id="title">README</h1>
+        <div id="navMenu">
+            <a href="/html/main.html" id="homeButton" class="header-link">Home</a>
+            <i class="fas fa-shoe-prints navbar-icon"></i>
+            <a href="/html/publicReviews.html" id="Reviews" class="header-link">Reviews</a>
+            <i class="fas fa-shoe-prints navbar-icon"></i>
+            <a href="/html/purchaseHistory.html" id="purchaseHistoryIcon" class="header-link">Purchase History</a>
+        </div>
+    </div>
+
+    <div id="adminButtons" style="display: none; justify-content: center; gap: 10px; margin-top: 20px;">
+        <button id="adminManagementButton" class="admin-management-button">Admin Management</button>
+        <button id="activityLogButton" class="admin-management-button">Activity Log</button>
+    </div>
+
+    <!-- Cart Container -->
+    <div id="cartContainer" style="display: none;">
+        <h2>Shopping Cart</h2>
+        <div id="cartItems"></div>
+        <div id="cartTotal"></div>
+        <a href="/html/cart.html" id="viewCartButton" class="proceed-button">View Cart</a>
+    </div>
+
+    <div class="content">
+        <!-- Content Cards -->
+        <div class="content-card">
+            <h2>What Are You Selling?</h2>
+            <p>At Shoe Store, we sell different types of shoes.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Additional Pages Added</h2>
+            <h3>1. Profile Page (html/profile.html):</h3>
+            <p>Purpose: The profile page allows users to view and update their personal information, such as their username, email, address, and phone number. Additionally, users can change their password from this page.</p>
+            <p>How to Operate:</p>
+            <ul>
+                <li><b>View Profile Information:</b> Upon accessing the profile page, the user's current profile information (username and email) is automatically loaded from the server and displayed in the respective fields.</li>
+                <li><b>Edit Profile Information:</b> Each field has an edit icon next to it. To update any field, click the pencil icon next to the field. This action will enable the field for editing. After making the desired changes, click the "Save Changes" button to save the updated information.</li>
+                <li><b>Change Password:</b> To change the password, enter the current password and the new password in the respective fields, and then click the "Change Password" button. The system validates the inputs and updates the password on the server if everything is correct.</li>
+            </ul>
+            <h3>2. Purchase History Page (html/purchaseHistory.html):</h3>
+            <p>Purpose: This feature provides users with a detailed list of all their previous purchases, making it easy to track and review past orders.</p>
+            <p>How to Operate:</p>
+            <ul>
+                <li><b>View Purchase History:</b> When the user accesses this page, their purchase history is fetched from the server and displayed in a list format. Each item in the list shows details such as the product name, price, and the date it was purchased.</li>
+            </ul>
+            <h3>3. Review Submission Page (html/submitReview.html):</h3>
+            <p>Purpose: This page allows users to leave reviews and ratings for products they have purchased.</p>
+            <p>How to Operate:</p>
+            <ul>
+                <li><b>Submit a Review:</b> The page displays the product image and several rating categories (Comfort, Style, Durability, Material Quality, Value for Money). Users can click on the stars to rate each category. They can also provide additional comments in the text box. After filling in all fields, clicking the "Submit Review" button sends the review data to the server. The review can only be submitted for products the user has purchased.</li>
+                <li><b>Star Rating:</b> Hover over the stars to select the desired rating. The selected stars will turn yellow. Clicking on a star sets the rating.</li>
+            </ul>
+            <h3>4. publicReviews Page (html/publicReviews.html):</h3>
+            <p>Purpose: This page displays a comprehensive list of all user reviews for products in the store, helping users to make informed purchase decisions.</p>
+            <p>How to Operate:</p>
+            <ul>
+                <li><b>View publicReviews:</b> Upon accessing the page, reviews from different users are displayed, showing the reviewer's name, the product they reviewed, their rating, and comments.</li>
+                <li><b>Filter Reviews:</b> Users can filter reviews by selecting a shoe name. This narrows down the displayed reviews to those relevant to the selected shoe, allowing users to see what others think about specific products.</li>
+            </ul>
+        </div>
+
+        <div class="content-card">
+            <h2>What Was Hard to Do?</h2>
+            <p><b>Integrating and Synchronizing Cart Functionality:</b> Ensuring that the cart functionality remained consistent across both the frontend and backend. This involved maintaining data integrity, especially during concurrent updates, and making sure that user data was accurate and up-to-date across various pages.</p>
+            <p><b>Understanding and Implementing Cookies:</b> The concept of cookies, particularly for managing user sessions and data persistence, was initially complicated. I spent a significant amount of time learning how to effectively use cookies to store and retrieve data, which was essential for features like the shopping cart and user authentication.</p>
+            <p><b>Managing Filters on the Main Page:</b> On the main page, implementing a robust filtering system that allowed users to view relevant shoes based on their preferences was particularly challenging. It required careful coordination of multiple filters to ensure they worked seamlessly together, providing accurate results for the user.</p>
+            <p><b>Handling Reviews and Ratings:</b> The most difficult part for me was managing the review system. Each user review needed to generate an average rating, which had to be stored in the database. Additionally, I had to calculate the average of all user reviews for a specific shoe, ensuring that the overall rating accurately reflected the collective feedback. Balancing this logic while ensuring efficiency and accuracy was a significant challenge.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>Who Is Your Partner?</h2>
+            <p>Yair Tzach - 207196924.</p>
+        </div>
+
+        <div class="content-card">
+            <h2>What Did You And Your Partner Do?</h2>
+            <p>Throughout the project, Yair and I worked closely together, often collaborating on key functionalities to ensure the best outcomes and to navigate the complexities of the tasks we faced for the first time. While we had specific areas of focus, we frequently assisted each other, making it difficult to pinpoint exact contributions. However, some of the primary areas we worked on are as follows:</p>
+            <ul>
+                <li><strong>Product Catalog:</strong> Contributed to building the product catalog, including developing the filtering and sorting functionalities that allow users to easily navigate through the various products</li>
+                <li><strong>Review Overview Page:</strong> Responsible for creating the two review pages, handling the display logic to ensure that users could easily view and access reviews for different products.</li>
+                <li><strong>Review System:</strong> Built the review submission and display system, including average rating calculations and detailed rating breakdowns.</li>
+                <li><strong>CSS Styling:</strong> Designed and implemented most of the CSS across the site, ensuring a consistent and responsive user interface.</li>
+                <li><strong>Collaborative Efforts:</strong> Worked closely with Yair to refine functionalities and troubleshoot complex issues, contributing to both frontend and backend areas, for example defending our platform against DoS attacks, Developed comprehensive tests for the important routes, ensuring that critical backend functionalities were thoroughly validated and reliable, cart and checkout functionalities and more.</li>
+                <li><strong>Yair was in charge of:</strong></li>
+                <li><strong>Purchase History:</strong> Yair implemented the purchase history.</li>
+                <li><strong>User Authentication System:</strong> Yair developed the user authentication system (login and registration).</li>
+                <li><strong>Admin Functionalities:</strong> Yair took a leading role in managing admin functionalities.</li>
+            </ul>
+        </div>
+
+        <div class="content-card">
+            <h2>Specify All the Different Routes Your App Supports</h2>
+            <h3>GET Routes:</h3>
+            <ul>
+                <li>/thankYou.html: Serves the thankYou.html page, protected by middleware that checks if the user is authenticated.</li>
+                <li>/thankYouReview.html: Serves the thankYouReview.html page, protected by middleware that checks if a review was submitted.</li>
+                <li>/submitReview.html: Serves the submitReview.html page, protected by a check for necessary cookies (userId, username, productTitle, productImage, productId). Redirects to login or purchase history if necessary cookies are missing.</li>
+                <li>/api/purchaseHistory: Fetches the purchase history for a user, checks if reviews have been submitted for each purchase, and returns the data.</li>
+                <li>/api/validate-user: Validates the user's session by checking the userId and username cookies against the database.</li>
+                <li>/api/publicReviews: Fetches public reviews based on query parameters (title, brand, rating, productId).</li>
+                <li>/api/check-admin: Checks if the user is an admin by validating the userId from cookies against the database.</li>
+                <li>/api/user-profile: Fetches the profile data for a user based on the username provided in the query parameters.</li>
+                <li>/profile.html: Serves the profile.html page, protected by a check for the userId and username cookies.</li>
+                <li>/main.html: Serves the main.html page.</li>
+                <li>/api/products: Fetches all products based on query parameters.</li>
+                <li>/api/products/:id: Fetches a single product by its ID.</li>
+                <li>/api/brands: Fetches brand data.</li>
+                <li>/cart: Fetches and renders the cart page for the user.</li>
+                <li>/login: Serves the login page.</li>
+                <li>/logout: Handles user logout, logs the logout activity, clears cookies, and redirects to the login page.</li>
+                <li>/admin/activity-log: Fetches and returns the activity log for all users, protected by middleware that checks if the user is an admin.</li>
+                <li>/admin.html: Serves the admin.html page, protected by middleware that checks if the user is an admin.</li>
+            </ul>
+            <h3>POST Routes:</h3>
+            <ul>
+                <li>/api/submit-submitReview: Handles the submission of a review. Validates the user, product, and order information, then saves the review and updates the product's average rating.</li>
+                <li>/register: Handles user registration. Validates the username, password, and email, checks for existing users, hashes the password, and creates a new user in the database.</li>
+                <li>/api/products: Adds a new product to the database.</li>
+                <li>/api/cart/update: Updates the user's cart with new quantities or items.</li>
+                <li>/api/cart/add: Adds a product to the user's cart, including logging the activity.</li>
+                <li>/api/cart/remove: Removes a product from the user's cart.</li>
+                <li>/api/cart/purchase: Finalizes the purchase, clears the cart, and updates the user's purchase history.</li>
+                <li>/login: Handles user login, authenticates the user, logs the login activity, and sets cookies.</li>
+            </ul>
+            <h3>PUT Routes:</h3>
+            <ul>
+                <li>/api/update-profile: Updates a user's profile information, including username, email, address, and phone number, with validation checks.</li>
+                <li>/api/update-password: Updates a user's password after validating the current password and the new password's format.</li>
+                <li>/api/products/:id: Updates an existing product by its ID.</li>
+            </ul>
+            <h3>DELETE Routes:</h3>
+            <ul>
+                <li>/api/submitReview/:id: Deletes a review by its ID, with an authorization check to ensure the user is an admin.</li>
+                <li>/api/products/:id: Deletes a product by its ID.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="../js/main.js"></script> <!--  path to the main.js file containing the cart functionality -->
+</body>
+</html>

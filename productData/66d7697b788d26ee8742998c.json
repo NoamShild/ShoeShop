@@ -1,0 +1,45 @@
+{
+  "brand": "Reebok",
+  "model": "Club C 85",
+  "description": "The Reebok Club C 85 combines retro style with a modern twist.",
+  "price": 75,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/4/z408110005-11649947850.jpg",
+  "categories": [
+    "Casual",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 15,
+      "_id": "66d7697b788d26ee8742998d"
+    },
+    {
+      "size": "37",
+      "amount": 18,
+      "_id": "66d7697b788d26ee8742998e"
+    },
+    {
+      "size": "38",
+      "amount": 25,
+      "_id": "66d7697b788d26ee8742998f"
+    },
+    {
+      "size": "39",
+      "amount": 15,
+      "_id": "66d7697b788d26ee87429990"
+    },
+    {
+      "size": "40",
+      "amount": 20,
+      "_id": "66d7697b788d26ee87429991"
+    },
+    {
+      "size": "41",
+      "amount": 10,
+      "_id": "66d7697b788d26ee87429992"
+    }
+  ],
+  "_id": "66d7697b788d26ee8742998c",
+  "__v": 0
+}

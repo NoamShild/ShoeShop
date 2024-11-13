@@ -1,0 +1,45 @@
+{
+  "brand": "Skechers",
+  "model": "D'Lites",
+  "description": "The Skechers D'Lites offers comfort with a stylish, chunky design.",
+  "price": 85,
+  "image": "https://www.skechers.com/dw/image/v2/BDCN_PRD/on/demandware.static/-/Sites-skechers-master/default/dw3acaff72/images/large/11930_BKW.jpg?sw=1600",
+  "categories": [
+    "Comfort",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 15,
+      "_id": "66d7697b788d26ee87429958"
+    },
+    {
+      "size": "37",
+      "amount": 20,
+      "_id": "66d7697b788d26ee87429959"
+    },
+    {
+      "size": "38",
+      "amount": 18,
+      "_id": "66d7697b788d26ee8742995a"
+    },
+    {
+      "size": "39",
+      "amount": 25,
+      "_id": "66d7697b788d26ee8742995b"
+    },
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d7697b788d26ee8742995c"
+    },
+    {
+      "size": "41",
+      "amount": 8,
+      "_id": "66d7697b788d26ee8742995d"
+    }
+  ],
+  "_id": "66d7697b788d26ee87429957",
+  "__v": 0
+}

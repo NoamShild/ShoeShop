@@ -1,0 +1,40 @@
+{
+  "_id": "66d76440fb66a44b13e9976a",
+  "brand": "Adidas",
+  "model": "Yeezy Boost 350 V2",
+  "description": "The Adidas Yeezy Boost 350 V2 offers an innovative design and comfort with its Primeknit upper.",
+  "price": 89.99,
+  "image": "https://nextsneakers.co.il/wp-content/uploads/2022/05/BB6373_1512x-1-1024x1024.jpeg",
+  "categories": [
+    "Streetwear",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "39",
+      "amount": 0,
+      "_id": "66d76440fb66a44b13e9976b"
+    },
+    {
+      "size": "40",
+      "amount": 15,
+      "_id": "66d76440fb66a44b13e9976c"
+    },
+    {
+      "size": "41",
+      "amount": 20,
+      "_id": "66d76440fb66a44b13e9976d"
+    },
+    {
+      "size": "42",
+      "amount": 15,
+      "_id": "66d76440fb66a44b13e9976e"
+    },
+    {
+      "size": "43",
+      "amount": 10,
+      "_id": "66d76440fb66a44b13e9976f"
+    }
+  ],
+  "__v": 0
+}

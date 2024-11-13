@@ -1,0 +1,40 @@
+{
+  "brand": "Asics",
+  "model": "Gel-Quantum 180",
+  "description": "The Asics Gel-Quantum 180 offers all-day comfort and a responsive ride.",
+  "price": 150,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/w/2/w266450001-11715235431.jpg",
+  "categories": [
+    "Running",
+    "Men"
+  ],
+  "sizes": [
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d767141158a2326f0bcb31"
+    },
+    {
+      "size": "41",
+      "amount": 15,
+      "_id": "66d767141158a2326f0bcb32"
+    },
+    {
+      "size": "42",
+      "amount": 20,
+      "_id": "66d767141158a2326f0bcb33"
+    },
+    {
+      "size": "43",
+      "amount": 15,
+      "_id": "66d767141158a2326f0bcb34"
+    },
+    {
+      "size": "44",
+      "amount": 10,
+      "_id": "66d767141158a2326f0bcb35"
+    }
+  ],
+  "_id": "66d767141158a2326f0bcb30",
+  "__v": 0
+}

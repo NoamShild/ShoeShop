@@ -1,0 +1,52 @@
+{
+  "brand": "dasd",
+  "model": "asdsa",
+  "description": "dasds",
+  "price": 22,
+  "image": "https://media.terminalx.com/pub/media/catalog/product/cache/f112238e8de94b6d480bd02e7a9501b8/z/8/z895470008-11684057605.jpg",
+  "categories": [],
+  "sizes": [
+    {
+      "size": "22",
+      "amount": 33,
+      "_id": "66d75abfd43129b438ff004b"
+    },
+    {
+      "size": "33",
+      "amount": 33,
+      "_id": "66d75abfd43129b438ff004c"
+    },
+    {
+      "size": "40",
+      "amount": 0,
+      "_id": "66d75abfd43129b438ff004d"
+    },
+    {
+      "size": "41",
+      "amount": 0,
+      "_id": "66d75abfd43129b438ff004e"
+    },
+    {
+      "size": "42",
+      "amount": 0,
+      "_id": "66d75abfd43129b438ff004f"
+    },
+    {
+      "size": "43",
+      "amount": 0,
+      "_id": "66d75abfd43129b438ff0050"
+    },
+    {
+      "size": "44",
+      "amount": 0,
+      "_id": "66d75abfd43129b438ff0051"
+    },
+    {
+      "size": "45",
+      "amount": 0,
+      "_id": "66d75abfd43129b438ff0052"
+    }
+  ],
+  "_id": "66d75abfd43129b438ff004a",
+  "__v": 0
+}

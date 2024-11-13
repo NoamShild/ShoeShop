@@ -1,0 +1,31 @@
+{
+  "_id": "66d8265535128c798ac8b43c",
+  "username": "admin",
+  "email": "admin@example.com",
+  "password": "$2a$10$n2vCDqRTzc59H1otF4P9Aua7NUFHlKm8lO80Q2j96qzzin16p7WT2",
+  "isAdmin": true,
+  "cart": [
+    {
+      "productId": "66d8265535128c798ac8b360",
+      "quantity": 1,
+      "size": "36",
+      "_id": "66d826f235128c798ac8b46d"
+    }
+  ],
+  "purchaseHistory": [],
+  "activityLog": [
+    {
+      "type": "login",
+      "datetime": "2024-09-04T09:21:47.737Z",
+      "_id": "66d826ab35128c798ac8b448"
+    },
+    {
+      "type": "add-to-cart",
+      "datetime": "2024-09-04T09:22:58.274Z",
+      "_id": "66d826f235128c798ac8b46f"
+    }
+  ],
+  "address": "",
+  "phoneNumber": "",
+  "__v": 0
+}

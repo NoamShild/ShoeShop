@@ -1,0 +1,45 @@
+{
+  "brand": "Nike",
+  "model": "Pegasus 37",
+  "description": "The Nike Pegasus 37 is a versatile running shoe that provides responsive cushioning.",
+  "price": 120,
+  "image": "https://www.jdsports.co.il/cdn/shop/products/jd_DX2498-006_a_1300x.jpg?v=1707208012",
+  "categories": [
+    "Running",
+    "Women"
+  ],
+  "sizes": [
+    {
+      "size": "36",
+      "amount": 12,
+      "_id": "66d767141158a2326f0bcafd"
+    },
+    {
+      "size": "37",
+      "amount": 10,
+      "_id": "66d767141158a2326f0bcafe"
+    },
+    {
+      "size": "38",
+      "amount": 15,
+      "_id": "66d767141158a2326f0bcaff"
+    },
+    {
+      "size": "39",
+      "amount": 20,
+      "_id": "66d767141158a2326f0bcb00"
+    },
+    {
+      "size": "40",
+      "amount": 10,
+      "_id": "66d767141158a2326f0bcb01"
+    },
+    {
+      "size": "41",
+      "amount": 8,
+      "_id": "66d767141158a2326f0bcb02"
+    }
+  ],
+  "_id": "66d767141158a2326f0bcafc",
+  "__v": 0
+}
